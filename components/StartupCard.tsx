@@ -39,7 +39,7 @@ const StartupCard = ({post}:{post:StartupTypeCard}) => {
           <h3 className="text-26-semibold line-clamp-1">{title}</h3>
           </Link>
         </div>
-        <Link href={`/user/${_id}`}>
+        <Link href={`/user/${author?._id}`}>
           <Image
             src={author?.image!}
             alt={author?.name!}

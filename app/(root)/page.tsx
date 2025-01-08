@@ -22,7 +22,7 @@ export default async function Home({
     <>
       <section className="pink_container">
         <h1 className="heading">
-          Pitch Your Startup, <br />
+        <span className="text-secondary">Pitch Your Startup,  </span><br />
           Bring your Big Ideas to the World
         </h1>
 
